@@ -35,7 +35,7 @@ async function launchBrowser(brandUsed: string, deviceConfig: BrowserContextOpti
     page = await context.newPage();
 
     switch(brandUsed) {
-		case 'betsson':
+		case 'EPICBET':
 			brandUrl = process.env.EPICBET as string;
 			break;
 	}

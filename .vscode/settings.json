@@ -1,0 +1,45 @@
+{
+	"cucumberautocomplete.steps": ["src/step-definitions/**/*.ts"],
+	"cucumberautocomplete.syncfeatures": "src/features/**/*.feature",
+	"cucumberautocomplete.strictGherkinCompletion": true,
+	"cucumberautocomplete.skipDocStringsFormat": true,
+	"cucumberautocomplete.stepsInvariants": true,
+	"cucumberautocomplete.onTypeFormat": true,
+	"cucumberautocomplete.smartSnippets": true,
+	"cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then|And|But)\\(",
+	"editor.quickSuggestions": {
+		"comments": false,
+		"strings": true,
+		"other": true
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/compiled": true,
+		"**/bin": true,
+		"**/obj": true,
+		"**/App_Data": false,
+		"**/dist": true,
+		"**/coverage": true
+	},
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"[json]": {
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true
+	},
+	"[jsonc]": {
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true
+	},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
