@@ -1,0 +1,31 @@
+{
+  "name": "sisu_group_hometask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/test-runner-script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "@types/node-fetch": "^2.6.12",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "eslint": "^9.20.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@types/cucumber": "^7.0.3",
+    "@types/cucumber-html-reporter": "^5.0.4",
+    "cucumber-html-report-generator": "^1.0.33",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.4.7"
+  }
+}
